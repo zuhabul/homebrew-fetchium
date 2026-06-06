@@ -7,22 +7,22 @@ class Fetchium < Formula
   on_macos do
     on_arm do
       url "https://github.com/zuhabul/Fetchium/releases/download/v1.0.0/fetchium-darwin-arm64.tar.gz"
-      sha256 "f01c4903f65bce77cf9cb6f24e421e33343ba9570cfb87a82822ea795cff4075"
+      sha256 "67511b55d93d05b3280842c0190e602e803bfae62cf0d0eb8f9713ed534d47e2"
     end
     on_intel do
       url "https://github.com/zuhabul/Fetchium/releases/download/v1.0.0/fetchium-darwin-x64.tar.gz"
-      sha256 "438be1ee223f687c3558932e44b9abe873c2fab99fa78c4e0e1525aad0ed28aa"
+      sha256 "063b463f8c6ce2e9042f0db2bc025b78aea088b804fc5c7811b95f70fcf50258"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zuhabul/Fetchium/releases/download/v1.0.0/fetchium-linux-arm64.tar.gz"
-      sha256 "dc5f663111df51e0d448059053e46098682253e5d3024f20aa7c1dbc4ea93cb2"
+      sha256 "1b3db73d4a6428b17ab4b3f4e76483ce30083dd61ce87841bdd1cc785219a4f2"
     end
     on_intel do
       url "https://github.com/zuhabul/Fetchium/releases/download/v1.0.0/fetchium-linux-x64.tar.gz"
-      sha256 "473ee0323653665dcee878ce7d9450e2ab8234ba050e8c0da179aded9a183c63"
+      sha256 "c939d2559dd16d30b8b2ceb8d49f5916f9c9b3de496bb4ab95c322d229acc647"
     end
   end
 
